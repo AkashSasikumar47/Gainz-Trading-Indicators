@@ -20,7 +20,7 @@ Gainz Trading Indicators is a web application that provides a collection of tech
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/Gainz-Trading-Indicators.git
+   git clone https://github.com/AkashSasikumar47/Gainz-Trading-Indicators.git
 
 2. Set up the backend and frontend as described in the project documentation.
 
