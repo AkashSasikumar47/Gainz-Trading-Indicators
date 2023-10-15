@@ -1,0 +1,42 @@
+/* Navbar styles */
+.navbar {
+    max-width: 1200px;
+    width: 100%;
+    height: 55px;
+    padding: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Logo styles */
+.logo {
+    width: 74px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text {
+    color: #000;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Links styles */
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+}
+
+.link {
+    color: #333;
+    font-size: 1rem;
+    font-weight: medium;
+    font-family: 'DM Sans', sans-serif;
+}
