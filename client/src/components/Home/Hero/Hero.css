@@ -1,0 +1,33 @@
+.Hero {
+    width: 1200px;
+    height: 326px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    background-color: transparent;
+}
+
+.HeroTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.HeroTitle {
+    color: #000000;
+    font-size: 6rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.HeroSubtitle {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+}
