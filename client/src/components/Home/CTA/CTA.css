@@ -1,0 +1,48 @@
+.CTA {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 424px;
+    padding: 16px;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.CTAContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.CTATitle {
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.CTASubtitle {
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.CTADescription {
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.CTAButton {
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.CTAImage {
+    flex-basis: 512px;
+    height: 400px;
+    position: relative;
+    background-color: #DDDDDD;
+    /* Or the desired background color */
+    border-radius: 5px;
+}
