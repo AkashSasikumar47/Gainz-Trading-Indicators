@@ -1,19 +1,21 @@
 import React from 'react';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import Hero from './components/Hero/Hero';
-import About from './components/About/About';
-import Explore from './components/Explore/Explore';
+import Navbar from './components/Home/Navbar/Navbar';
+import Footer from './components/Home/Footer/Footer';
+import Hero from './components/Home/Hero/Hero';
+import Aboutgainz from './components/Home/Aboutgainz/Aboutgainz';
+import Explore from './components/Home/Explore/Explore';
+import CTA from './components/Home/CTA/CTA';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
 
-      <main>
+      <main className="main-content">
         <Hero />
-        <About />
+        <Aboutgainz />
         <Explore />
+        <CTA />
       </main>
 
       <Footer />
