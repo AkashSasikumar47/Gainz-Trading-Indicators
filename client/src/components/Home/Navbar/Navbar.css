@@ -1,0 +1,41 @@
+.Navbar {
+    width: 1200px;
+    height: 55px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    width: 73px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoText {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.Menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.MenuItem {
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.MenuItem:hover {
+    text-decoration: underline;
+}
