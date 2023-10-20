@@ -6,6 +6,8 @@ import Aboutgainz from './components/Home/Aboutgainz/Aboutgainz';
 import Explore from './components/Home/Explore/Explore';
 import CTA from './components/Home/CTA/CTA';
 
+import Routes from './Routes';
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +18,7 @@ function App() {
         <Aboutgainz />
         <Explore />
         <CTA />
+        <Routes />
       </main>
 
       <Footer />
