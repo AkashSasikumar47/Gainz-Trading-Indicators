@@ -1,10 +1,18 @@
 import React from 'react';
+import Navbar from '../components/Home/Navbar/Navbar';
+import Footer from '../components/Home/Footer/Footer';
+import PrivacyPolicy from '../components/Privacy/PrivacyPolicy/PrivacyPolicy';
 
 function Privacy() {
     return (
         <div>
-            <h1>Privacy Policy</h1>
-            <p>Here is our privacy policy to protect your data.</p>
+            <Navbar />
+
+            <main>
+                <PrivacyPolicy />
+            </main>
+
+            <Footer />
         </div>
     );
 }
