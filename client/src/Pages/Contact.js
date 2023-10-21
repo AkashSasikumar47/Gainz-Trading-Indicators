@@ -1,16 +1,10 @@
 import React from 'react';
-import Navbar from './components/Home/Navbar/Navbar';
-import Footer from './components/Home/Footer/Footer';
-import ContactUs from './components/ContactUs'; // Your ContactUs component
 
 function Contact() {
     return (
-        <div className="Contact">
-            <Navbar />
-            <main className="main-content">
-                <ContactUs />
-            </main>
-            <Footer />
+        <div>
+            <h1>Contact Us</h1>
+            <p>Feel free to contact us for any questions or inquiries.</p>
         </div>
     );
 }

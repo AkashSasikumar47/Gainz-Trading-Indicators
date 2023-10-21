@@ -1,12 +1,17 @@
 .Explore {
+    max-width: 1200px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    margin-top: 64px;
+    padding: 16px 64px;
+    background-color: #F3F3F3;
 }
 
 .ExploreSection {
     width: 100%;
-    max-width: 1200px;
     padding: 16px;
     margin-bottom: 16px;
     display: flex;
@@ -30,7 +35,6 @@
 
 .ExploreCard {
     width: 100%;
-    max-width: 1200px;
     background-color: #DDDDDD;
     border: 1px solid #DDDDDD;
     border-radius: 5px;
@@ -53,4 +57,22 @@
     font-weight: 400;
     color: #000000;
     font-family: 'DM Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .Explore {
+        padding: 16px;
+    }
+
+    .ExploreSectionTitle {
+        font-size: 24px;
+    }
+
+    .ExploreCardTitle {
+        font-size: 20px;
+    }
+
+    .ExploreCardDescription {
+        font-size: 14px;
+    }
 }

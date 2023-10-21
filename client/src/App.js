@@ -1,28 +1,24 @@
 import React from 'react';
-import Navbar from './components/Home/Navbar/Navbar';
-import Footer from './components/Home/Footer/Footer';
-import Hero from './components/Home/Hero/Hero';
-import Aboutgainz from './components/Home/Aboutgainz/Aboutgainz';
-import Explore from './components/Home/Explore/Explore';
-import CTA from './components/Home/CTA/CTA';
-
-import Routes from './Routes';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Privacy from './Pages/Privacy';
+import Terms from './Pages/Terms';
+import Indicators from './Pages/Indicators';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-
-      <main className="main-content">
-        <Hero />
-        <Aboutgainz />
-        <Explore />
-        <CTA />
-        <Routes />
-      </main>
-
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/indicators" element={<Indicators />} />
+      </Routes>
+    </Router>
   );
 }
 
