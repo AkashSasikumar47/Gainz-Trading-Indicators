@@ -7,6 +7,8 @@ import Privacy from './Pages/Privacy';
 import Terms from './Pages/Terms';
 import Indicators from './Pages/Indicators';
 
+import './App.css';
+
 function App() {
   return (
     <Router>
