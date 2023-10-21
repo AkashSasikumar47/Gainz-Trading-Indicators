@@ -1,101 +1,63 @@
 .privacy-policy-container {
-    width: 1440px;
-    height: 1915px;
-    padding: 120px;
-    padding-top: 16px;
-    background-color: #E5E5E5;
+    max-width: 1200px;
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    gap: 16px;
-    display: inline-flex;
-}
-
-.header {
-    width: 1200px;
-    padding: 16px;
-    padding-top: 3px;
-    justify-content: space-between;
     align-items: center;
-    display: inline-flex;
-}
-
-.logo {
-    width: 73px;
-    height: 31px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'DM Sans', sans-serif;
-    color: #000;
-}
-
-.menu {
-    justify-content: start;
-    align-items: center;
-    gap: 8px;
-    display: flex;
-}
-
-.menu-item {
-    font-size: 1rem;
-    font-weight: medium;
-    font-family: 'DM Sans', sans-serif;
-    color: #555;
-}
-
-.title-section {
-    height: 40px;
-    padding: 16px;
-    padding-top: 3px;
-    justify-content: start;
-    align-items: center;
-    gap: 32px;
-    display: flex;
-}
-
-.title {
-    font-size: 6rem;
-    font-weight: medium;
-    font-family: 'DM Sans', sans-serif;
-    color: #000;
-}
-
-.effective-date {
-    font-size: 32px;
-    font-weight: normal;
-    font-family: 'DM Sans', sans-serif;
-    color: #000;
+    margin: 0 auto;
+    margin-top: 64px;
+    padding: 16px 64px;
+    background-color: #F3F3F3;
 }
 
 .section {
-    width: 1200px;
+    width: 100%;
     padding: 16px;
-    padding-top: 3px;
-    justify-content: start;
-    align-items: center;
-    gap: 8px;
-    display: inline-flex;
+    margin-bottom: 16px;
 }
 
-.section-title {
-    font-size: 32px;
+h1 {
+    font-size: 2.5rem;
     font-weight: medium;
-    font-family: 'DM Sans', sans-serif;
-    color: #000;
 }
 
-.section-content {
-    font-size: 1rem;
-    font-weight: normal;
-    font-family: 'DM Sans', sans-serif;
-    color: #000;
-    line-height: 1.5;
+h2 {
+    font-size: 2rem;
+    font-weight: medium;
+    margin-top: 16px;
 }
 
-.contact-link {
+p {
+    font-size: 1.2rem;
+    margin-top: 8px;
+}
+
+a {
     text-decoration: underline;
+    color: #000;
+}
+
+a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .privacy-policy-container {
+        padding: 16px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin-top: 12px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        margin-top: 6px;
+    }
 }
