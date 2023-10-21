@@ -1,10 +1,20 @@
 import React from 'react';
+import Navbar from '../components/Home/Navbar/Navbar';
+import Footer from '../components/Home/Footer/Footer';
+import AboutMe from '../components/About/AboutMe/AboutMe';
+import CTA from '../components/Home/CTA/CTA';
 
 function About() {
     return (
         <div>
-            <h1>About Us</h1>
-            <p>Welcome to our About page. We are GAINZ!</p>
+            <Navbar />
+
+            <main>
+                <AboutMe />
+                <CTA />
+            </main>
+
+            <Footer />
         </div>
     );
 }
