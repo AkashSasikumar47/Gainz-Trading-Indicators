@@ -13,7 +13,6 @@
 .ExploreSection {
     width: 100%;
     padding: 16px;
-    margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,27 +21,29 @@
 .ExploreSectionHeader {
     width: 100%;
     display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
 }
 
 .ExploreSectionTitle {
     font-size: 32px;
-    font-weight: 500;
+    font-weight: bold;
     color: #000000;
     font-family: 'DM Sans', sans-serif;
+    align-items: left;
+    text-align: left;
 }
 
 .ExploreCard {
     width: 100%;
-    background-color: #DDDDDD;
-    border: 1px solid #DDDDDD;
-    border-radius: 5px;
+    background-color: #F3F3F3;
     padding: 16px;
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
+    gap: 16px;
 }
 
 .ExploreCardTitle {
@@ -50,6 +51,7 @@
     font-weight: 500;
     color: #000000;
     font-family: 'DM Sans', sans-serif;
+    text-align: left;
 }
 
 .ExploreCardDescription {
@@ -57,15 +59,29 @@
     font-weight: 400;
     color: #000000;
     font-family: 'DM Sans', sans-serif;
+    text-align: left;
+}
+
+.ExploreCardImage img {
+    width: 100%;
+    max-width: 1200px;
+    max-height: 512px;
+    background: #F3F3F3;
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {
     .Explore {
         padding: 16px;
+        align-items: center;
+        text-align: center;
     }
 
-    .ExploreSectionTitle {
+    .ExploreSectionTitle,
+    .ExploreCardTitle,
+    .ExploreCardDescription {
         font-size: 24px;
+        text-align: center;
     }
 
     .ExploreCardTitle {
