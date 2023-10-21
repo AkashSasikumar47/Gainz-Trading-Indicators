@@ -1,10 +1,20 @@
 import React from 'react';
+import Navbar from '../components/Home/Navbar/Navbar';
+import Footer from '../components/Home/Footer/Footer';
+import TermsConditions from '../components/Terms/TermsConditions/TermsConditions';
 
 function Terms() {
     return (
         <div>
-            <h1>Terms of Service</h1>
-            <p>These are our terms and conditions for using our services.</p>
+            <div>
+                <Navbar />
+
+                <main>
+                    <TermsConditions />
+                </main>
+
+                <Footer />
+            </div>
         </div>
     );
 }
