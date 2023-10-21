@@ -40,3 +40,4 @@ Thumbs.db
 # Ignore editor-specific files
 .vscode/
 .idea/
+.vercel
