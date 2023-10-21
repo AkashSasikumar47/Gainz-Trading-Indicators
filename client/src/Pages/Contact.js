@@ -7,7 +7,11 @@ function Contact() {
     return (
         <div>
             <Navbar />
-            <ContactUs />
+
+            <main>
+                <ContactUs />
+            </main>
+
             <Footer />
         </div>
     );
