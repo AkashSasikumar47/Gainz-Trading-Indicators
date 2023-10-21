@@ -8,10 +8,10 @@ import CTA from '../components/Home/CTA/CTA';
 
 function HomePage() {
     return (
-        <div className="App">
+        <div>
             <Navbar />
 
-            <main className="main-content">
+            <main>
                 <Hero />
                 <Aboutgainz />
                 <Explore />
