@@ -6,6 +6,8 @@ import Contact from './Pages/Contact';
 import Privacy from './Pages/Privacy';
 import Terms from './Pages/Terms';
 import Indicators from './Pages/Indicators';
+import Login from './Pages/Login';
+import AddIndicatorForm from './components/Home/AddIndicatorForm/AddIndicatorForm';
 
 import './App.css';
 
@@ -19,6 +21,8 @@ function App() {
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/indicators" element={<Indicators />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/add-indicator" element={<AddIndicatorForm />} />
       </Routes>
     </Router>
   );
