@@ -6,17 +6,18 @@ import TermsConditions from '../components/Terms/TermsConditions/TermsConditions
 function Terms() {
     return (
         <div>
-            <div>
-                <Navbar />
+            <Navbar />
 
-                <main>
-                    <TermsConditions />
-                </main>
+            <main>
+                <TermsConditions />
+            </main>
 
-                <Footer />
-            </div>
+            <Footer />
         </div>
     );
 }
+
+Terms.title = "Terms and Conditions - Gainz Trading Indicators";
+Terms.description = "Read our Terms and Conditions to understand the rules and guidelines for using Gainz Trading Indicators. By accessing our services, you agree to abide by these terms.";
 
 export default Terms;
