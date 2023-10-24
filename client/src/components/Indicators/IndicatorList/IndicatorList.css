@@ -52,6 +52,21 @@
     max-width: 360px;
 }
 
+.visit-link {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    margin-left: 4px;
+}
+
 @media (max-width: 1200px) {
     .indicator-list-container {
         grid-template-columns: repeat(2, 1fr);
