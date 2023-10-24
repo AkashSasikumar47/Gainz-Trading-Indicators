@@ -19,4 +19,7 @@ function Indicators() {
     );
 }
 
+Indicators.title = "Trading Indicators - Enhance Your Trading Strategies";
+Indicators.description = "Explore a collection of trading indicators to enhance your trading strategies. Gainz Trading Indicators offers a range of technical indicators for traders and stock market enthusiasts.";
+
 export default Indicators;
