@@ -17,4 +17,7 @@ function Privacy() {
     );
 }
 
+Privacy.title = "Privacy Policy - Gainz Trading Indicators";
+Privacy.description = "Read our Privacy Policy to learn how Gainz Trading Indicators handles your data and privacy. We are committed to protecting your information.";
+
 export default Privacy;
