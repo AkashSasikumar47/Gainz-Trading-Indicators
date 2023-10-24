@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './CTA.css';
 
 function CTA() {
@@ -9,7 +10,7 @@ function CTA() {
             <p>
                 Start exploring our indicator repositories and gain a competitive edge in the stock market. Whether you're new to trading or an experienced investor, GAINZ has something valuable to offer.
             </p>
-            <button className="button">Learn More</button>
+            <Link to="/indicators" className="button">Learn More</Link>
         </div>
     );
 }
