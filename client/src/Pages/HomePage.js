@@ -23,4 +23,7 @@ function HomePage() {
     );
 }
 
+HomePage.title = "Gainz Trading Indicators - Your Source for Technical Indicators";
+HomePage.description = "Gainz Trading Indicators provides a wide range of technical indicators to help you make informed trading decisions. Explore our collection of indicators for traders of all levels.";
+
 export default HomePage;
