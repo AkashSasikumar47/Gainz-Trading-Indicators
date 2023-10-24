@@ -19,4 +19,7 @@ function About() {
     );
 }
 
+About.title = "About Gainz Trading Indicators - Learn About Our Services";
+About.description = "Discover more about Gainz Trading Indicators and our services. We provide a wide range of technical indicators to help traders make informed decisions.";
+
 export default About;
