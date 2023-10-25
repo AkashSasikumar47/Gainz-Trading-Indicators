@@ -9,7 +9,7 @@ const AboutMe = () => {
                     <h1 className="about-me-title">About Me</h1>
                     <h2 className="about-me-subtitle">Hi! I'm Akash Sasikumar 🚀</h2>
                     <p className="about-me-description">
-                        I'm Akash Sasikumar, a student pursuing a degree in Computer Science and Engineering at SRM Institute of Science and Technology (SMIST). Beyond my academic pursuits, I'm passionate about trading, particularly in the world of equity and derivatives.
+                        I'm Akash Sasikumar, a student pursuing a degree in Computer Science and Engineering at SRM Institute of Science and Technology (SRMIST). Beyond my academic pursuits, I'm passionate about trading, particularly in the world of equity and derivatives.
                     </p>
                 </div>
             </div>
